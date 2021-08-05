@@ -1,0 +1,32 @@
+.LoginButton {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    text-transform: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #abb8cc;
+    border-color: #0a58ca;
+}
+
+.Or {
+    display: inline-block;
+    width: 50px;
+}
+
+@media (max-width: 470px) {
+    .Form {
+        margin: 0 5px;
+    }
+}

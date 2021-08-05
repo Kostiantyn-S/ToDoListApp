@@ -1,0 +1,59 @@
+.AddItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.TextField {
+    box-sizing: border-box;
+    display: block;
+    width: 60%;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 19px;
+    line-height: 30px;
+    text-indent: .7px;
+    color: #2c3f52;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #b6c9d6;
+    border-radius: 0;
+    padding-right: 30px;
+}
+
+.AddButton {
+    box-sizing: border-box;
+    overflow: visible;
+    text-transform: none;
+    font-family: inherit;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 7px 20px;
+    font-size: 17px;
+    line-height: 1.41176471;
+    border-radius: 5px;
+    user-select: none;
+    text-decoration: none;
+    outline: 0!important;
+    color: #fff;
+    background-color: #1dca96;
+    border-color: transparent;
+    width: 100px;
+}
+
+@media (max-width: 470px) {
+    .AddButton {
+        width: 60px;
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+}

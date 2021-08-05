@@ -1,0 +1,57 @@
+.CardItem {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.ItemLabel {
+    display: flex;
+    width: 430px;
+}
+
+.ItemCheckBox {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ItemText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    width: 350px;
+    word-wrap: break-word;
+    color: green;
+}
+
+.ItemDel {
+    position: relative;
+    top: 4px;
+}
+
+@media (max-width: 470px) {
+    .CardItem {
+        padding: 10px 0 10px 10px;
+        grid-template-columns: 7fr 1fr;
+        width: 100%;
+    }
+
+    .ItemLabel {
+        width: 100%;
+    }
+
+    .ItemCheckBox {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ItemText {
+        width: 75vw;
+    }
+
+    .ItemDel {
+        top: 0;
+    }
+}

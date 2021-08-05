@@ -1,0 +1,18 @@
+.Header {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.UserName {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+@media (max-width: 470px) {
+    .UserName {
+        padding-top: 10px;
+    }
+}
