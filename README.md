@@ -1,5 +1,7 @@
-My React ToDo Application, using:
-    - create-react-app (React.js);
-    - redux;
-    - react-bootstrap;
-    - data is stored in localeStorage;
+# My simple React ToDo Application
+===================================
+## In the App i used:
+* create-react-app;
+* redux;
+* react-bootstrap;
+* localeStorage for store data;
